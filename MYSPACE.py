@@ -12,14 +12,15 @@ driver = webdriver.Chrome(executable_path='/Users/ryan/Desktop/Programming/recip
 
 
 driver.get(URL)
-
+username = ''
+password = ''
 
 #login
 e = driver.find_element_by_id("login.email")
-e.send_keys('andtowhatdoiowe@yahoo.com')
+e.send_keys(username)
 
 e = driver.find_element_by_id("login.password")
-e.send_keys('bestidea1')
+e.send_keys(password)
 
 e = driver.find_element_by_class_name("primary")
 e.click()
