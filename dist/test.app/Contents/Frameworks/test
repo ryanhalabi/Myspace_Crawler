@@ -1,7 +1,0 @@
-import pydb; 
-
-
-x = 14
-
-pydb.debugger()
-print('HIAS:LKDJAS:KJDSK:ALJD:LKASJD:SAJKL:D')
